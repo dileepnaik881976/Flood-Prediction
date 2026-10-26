@@ -1,0 +1,51 @@
+{
+  "best_model": "Linear Regression",
+  "models": {
+    "Baseline (mean)": {
+      "MAE": 0.04089184935658521,
+      "RMSE": 0.05098309336110274,
+      "R2": -2.041851132617012e-10,
+      "train_rows_used": 894365,
+      "fit_seconds": 0.0
+    },
+    "Linear Regression": {
+      "MAE": 0.01579247136376035,
+      "RMSE": 0.020080004658628893,
+      "R2": 0.8448773362840329,
+      "train_rows_used": 894365,
+      "fit_seconds": 2.0
+    },
+    "Random Forest": {
+      "MAE": 0.027011839844218653,
+      "RMSE": 0.03299994606621565,
+      "R2": 0.5810385196659802,
+      "train_rows_used": 100000,
+      "fit_seconds": 12.4
+    },
+    "Extra Trees": {
+      "MAE": 0.02791061810069617,
+      "RMSE": 0.033978242742074324,
+      "R2": 0.5558297521850221,
+      "train_rows_used": 100000,
+      "fit_seconds": 7.1
+    },
+    "HistGradientBoosting": {
+      "MAE": 0.016359682667750397,
+      "RMSE": 0.0207469983479629,
+      "R2": 0.8344008207582166,
+      "train_rows_used": 894365,
+      "fit_seconds": 24.9
+    }
+  },
+  "external_flood_csv": {
+    "MAE": 0.011453670904522335,
+    "RMSE": 0.012998056661159456,
+    "R2": 0.9325117414284629
+  },
+  "split": {
+    "train_rows": 894365,
+    "validation_rows": 223592,
+    "seed": 42,
+    "validation_fraction": 0.2
+  }
+}

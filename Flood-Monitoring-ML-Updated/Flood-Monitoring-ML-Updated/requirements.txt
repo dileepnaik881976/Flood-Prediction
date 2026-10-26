@@ -1,0 +1,10 @@
+# Tested here with Python 3.12 and: numpy 2.4.4, pandas 3.0.2, scikit-learn 1.8.0, matplotlib 3.10.8, joblib 1.5.3
+# Streamlit was NOT installed in the build environment, so its version range below is untested.
+numpy>=1.26
+pandas>=2.2
+# The saved model (models/best_model.joblib) was created with scikit-learn 1.8.0. Keep this pin so it loads;
+# if you change it, retrain with:  python -m src.train
+scikit-learn==1.8.0
+joblib>=1.4
+matplotlib>=3.8
+streamlit>=1.40

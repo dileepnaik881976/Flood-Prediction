@@ -1,0 +1,10 @@
+Train rows: 894,365 | Validation rows: 223,592
+Baseline (mean)        MAE=0.04089 RMSE=0.05098 R2=-0.00000 (0.0s, 894,365 rows)
+Linear Regression      MAE=0.01579 RMSE=0.02008 R2=0.84488 (2.0s, 894,365 rows)
+Random Forest          MAE=0.02701 RMSE=0.03300 R2=0.58104 (12.4s, 100,000 rows)
+Extra Trees            MAE=0.02791 RMSE=0.03398 R2=0.55583 (7.1s, 100,000 rows)
+HistGradientBoosting   MAE=0.01636 RMSE=0.02075 R2=0.83440 (24.9s, 894,365 rows)
+
+Best model on validation RMSE: Linear Regression
+External check on flood.csv: {'MAE': 0.01145, 'RMSE': 0.013, 'R2': 0.93251}
+Saved model, schema, metrics and validation predictions.

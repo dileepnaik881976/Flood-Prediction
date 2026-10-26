@@ -1,0 +1,113 @@
+{
+  "features": [
+    "MonsoonIntensity",
+    "TopographyDrainage",
+    "RiverManagement",
+    "Deforestation",
+    "Urbanization",
+    "ClimateChange",
+    "DamsQuality",
+    "Siltation",
+    "AgriculturalPractices",
+    "Encroachments",
+    "IneffectiveDisasterPreparedness",
+    "DrainageSystems",
+    "CoastalVulnerability",
+    "Landslides",
+    "Watersheds",
+    "DeterioratingInfrastructure",
+    "PopulationScore",
+    "WetlandLoss",
+    "InadequatePlanning",
+    "PoliticalFactors"
+  ],
+  "target": "FloodProbability",
+  "model_name": "Linear Regression",
+  "feature_ranges": {
+    "MonsoonIntensity": {
+      "min": 0,
+      "max": 16
+    },
+    "TopographyDrainage": {
+      "min": 0,
+      "max": 18
+    },
+    "RiverManagement": {
+      "min": 0,
+      "max": 16
+    },
+    "Deforestation": {
+      "min": 0,
+      "max": 17
+    },
+    "Urbanization": {
+      "min": 0,
+      "max": 17
+    },
+    "ClimateChange": {
+      "min": 0,
+      "max": 17
+    },
+    "DamsQuality": {
+      "min": 0,
+      "max": 16
+    },
+    "Siltation": {
+      "min": 0,
+      "max": 16
+    },
+    "AgriculturalPractices": {
+      "min": 0,
+      "max": 16
+    },
+    "Encroachments": {
+      "min": 0,
+      "max": 18
+    },
+    "IneffectiveDisasterPreparedness": {
+      "min": 0,
+      "max": 16
+    },
+    "DrainageSystems": {
+      "min": 0,
+      "max": 17
+    },
+    "CoastalVulnerability": {
+      "min": 0,
+      "max": 17
+    },
+    "Landslides": {
+      "min": 0,
+      "max": 16
+    },
+    "Watersheds": {
+      "min": 0,
+      "max": 16
+    },
+    "DeterioratingInfrastructure": {
+      "min": 0,
+      "max": 17
+    },
+    "PopulationScore": {
+      "min": 0,
+      "max": 18
+    },
+    "WetlandLoss": {
+      "min": 0,
+      "max": 19
+    },
+    "InadequatePlanning": {
+      "min": 0,
+      "max": 16
+    },
+    "PoliticalFactors": {
+      "min": 0,
+      "max": 16
+    }
+  },
+  "random_seed": 42,
+  "feature_sum_range": [
+    63,
+    144
+  ]
+}
